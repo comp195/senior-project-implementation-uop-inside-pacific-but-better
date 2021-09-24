@@ -5,12 +5,10 @@ InsidePacific but better
 Alan Barragan, Chris Fines
 
 Project Description
-
-A better user interface for the existing InsidePacific
+  - A better user interface for the existing InsidePacific
 
 Project Components
-
-Unity
+  - Unity
 
 Special Notes
 
