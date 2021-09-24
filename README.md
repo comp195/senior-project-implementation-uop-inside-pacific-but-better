@@ -13,8 +13,9 @@ Project Components
 Special Notes
 
 
-- add project plan (gnatt chart or the wiki) (idk anything about this wiki lets just do a gnatt chart lol)
-- create a page for each snapshot
+add project plan (gnatt chart or the wiki) (idk anything about this wiki lets just do a gnatt chart lol)
+
+create a page for each snapshot
   - list completed activities
   - activities behind schedule
   - tasks to be done in the next snapshot
