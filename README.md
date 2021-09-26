@@ -16,13 +16,3 @@ Project Components
 
 Special Notes
   - N/A
-
-Project plan
-
-create a page for each snapshot
-  - list completed activities
-  - activities behind schedule
-  - tasks to be done in the next snapshot
- - source code
- - design documents 
- - test plans and results
