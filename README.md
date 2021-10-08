@@ -1,4 +1,4 @@
-# senior-project-implementation-uop-inside-pacific-but-better
+# University of the Pacific - Inside Pacific but better
 senior-project-implementation-uop-inside-pacific-but-better created by GitHub Classroom
 
 InsidePacific but better
