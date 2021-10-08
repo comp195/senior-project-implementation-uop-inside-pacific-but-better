@@ -13,6 +13,7 @@ Project Components
   - Unity 2D
   - C# Scripting
   - Google Forms
+  - Rider
 
 Special Notes
   - N/A
