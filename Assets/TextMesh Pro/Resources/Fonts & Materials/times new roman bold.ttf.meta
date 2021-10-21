@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e4ea85812acc1ee429c5cd7d71a7c6a6
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Times New Roman Cyr
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c489d6377d2bb7047be19d5f212bc999, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
