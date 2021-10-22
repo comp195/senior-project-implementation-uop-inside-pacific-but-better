@@ -17,6 +17,3 @@ Project Components
   - C# Scripting
   - Google Forms
   - Rider
-
-Special Notes
-  - N/A
