@@ -24,6 +24,6 @@ public class PrototypeSelector : MonoBehaviour
 
     public void SelectTwo()
     {
-        SceneManager.LoadScene(sceneName: "Prototype2");
+        SceneManager.LoadScene(sceneName: "Prototype2.1");
     }
 }
