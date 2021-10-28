@@ -5,20 +5,22 @@ using UnityEngine;
 public class TabGenerator : MonoBehaviour
 {
     [SerializeField] private GameObject tabPrefab;
+  
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void CreateTab()
     {
-        
+        GameObject t = (GameObject) Instantiate(tabPrefab, RandomCords(), Quaternion.identity);
+    }
+
+    public Vector2 RandomCords()
+    {
+        Vector2 tabPos = transform.position;
+        tabPos.x = Random.Range(Camera.main.ScreenToWorldPoint(new Vector2(0, 0)).x, Camera.main.ScreenToWorldPoint(new Vector2(Screen.width, 0)).x);
+        tabPos.y = Random.Range(Camera.main.ScreenToWorldPoint(new Vector2(0, 0)).y, Camera.main.ScreenToWorldPoint(new Vector2(0, Screen.height)).y);
+        return tabPos;
     }
 }
