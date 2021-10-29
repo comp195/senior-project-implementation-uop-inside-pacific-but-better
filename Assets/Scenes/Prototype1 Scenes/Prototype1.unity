@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &17927056 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2588638853944762997, guid: b1c2317193f839444a67335578fc3c9f, type: 3}
+  m_PrefabInstance: {fileID: 2588638854920618455}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &21309526
 GameObject:
   m_ObjectHideFlags: 0
@@ -3372,6 +3377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   logOutButton: {fileID: 1761443955}
+  Prototype2DashBoardButton: {fileID: 0}
 --- !u!114 &1902814868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3384,7 +3390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8454729ae6d9cfb4b8710fdd4d0474f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tab: {fileID: 2588638853944762997, guid: b1c2317193f839444a67335578fc3c9f, type: 3}
+  tab: {fileID: 17927056}
 --- !u!114 &1902814869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3397,7 +3403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d8450f33ebfbba4bae24c90c846cca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tabPrefab: {fileID: 2588638853944762997, guid: b1c2317193f839444a67335578fc3c9f, type: 3}
+  tabPrefab: {fileID: 17927056}
 --- !u!1 &1928876916
 GameObject:
   m_ObjectHideFlags: 0
