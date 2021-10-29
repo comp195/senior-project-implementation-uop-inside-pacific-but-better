@@ -13,7 +13,7 @@ public class TabGenerator : MonoBehaviour
 
     public void CreateTab()
     {
-        GameObject t = (GameObject) Instantiate(tabPrefab, RandomCords(), Quaternion.identity);
+        GameObject t = (GameObject) Instantiate(tabPrefab, RandomCords(), Quaternion.identity, GameObject.FindGameObjectWithTag("Canvas").transform);
     }
 
     public Vector2 RandomCords()
