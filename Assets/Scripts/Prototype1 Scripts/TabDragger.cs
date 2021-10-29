@@ -1,18 +1,29 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class TabDragger : MonoBehaviour
+public class TabDragger : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    // Start is called before the first frame update
-    void Start()
+    private bool isDragging;
+    public static GameObject itemBeingDragged;
+    private Vector3 startPosition;
+
+    public void OnBeginDrag(PointerEventData eventData)
     {
-        
+        itemBeingDragged = gameObject;
+        startPosition = transform.position;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnDrag(PointerEventData eventData)
     {
-        
+        transform.position = Input.mousePosition;
+    }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        itemBeingDragged = null;
+        //transform.position = startPosition;
     }
 }
