@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2588638853944762996}
   - component: {fileID: 7076274185821570121}
+  - component: {fileID: 17927057}
   m_Layer: 5
   m_Name: Tab
   m_TagString: Untagged
@@ -66,6 +67,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 187.37, y: 158.4974}
   m_EdgeRadius: 0
+--- !u!114 &17927057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2588638853944762997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69b426cfb242fb04eb6f0dc80c303bb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2588638854658154899
 GameObject:
   m_ObjectHideFlags: 0
