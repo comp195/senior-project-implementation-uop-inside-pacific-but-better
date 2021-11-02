@@ -6,12 +6,16 @@ using UnityEngine.EventSystems;
 public class Prototype2AcademicPageTabs : MonoBehaviour
 {
     public GameObject page1, page2, page3, page4, page5, page6, page7, page8, page9;
-    public GameObject parent, AcademicServicesParent, currentSelectedGameObject;
+    public GameObject parent, AcademicServicesParent, FinancialAidLinksParent, currentSelectedGameObject;
     public Dictionary<string, GameObject> dict = new Dictionary<string, GameObject>();
     public bool updateDict = true;
 
     public Dictionary<string, GameObject> AcademicServicesDict = new Dictionary<string, GameObject>();
     public GameObject AcademicServicesPage1, AcademicServicesPage2, AcademicServicesPage3;
+
+    public Dictionary<string, GameObject> FinancialAidLinksDict = new Dictionary<string, GameObject>();
+    public GameObject FinancialAidLinksPage1, FinancialAidLinksPage2, FinancialAidLinksPage3, FinancialAidLinksPage4,
+        FinancialAidLinksPage5, FinancialAidLinksPage6;
 
     // Update is called once per frame
     void Update()
@@ -33,6 +37,13 @@ public class Prototype2AcademicPageTabs : MonoBehaviour
             AcademicServicesDict.Add("Personal Information Button", AcademicServicesPage1);
             AcademicServicesDict.Add("Financial Aid Button", AcademicServicesPage2);
             AcademicServicesDict.Add("Student Services Button", AcademicServicesPage3);
+            // For the pages that correspond to the financial aid links button
+            FinancialAidLinksDict.Add("Financial Aid Links Button", FinancialAidLinksPage1);
+            FinancialAidLinksDict.Add("Eligibility Button", FinancialAidLinksPage2);
+            FinancialAidLinksDict.Add("View Your Financial Aid Award Button", FinancialAidLinksPage3);
+            FinancialAidLinksDict.Add("View Federal Work Study Button", FinancialAidLinksPage4);
+            FinancialAidLinksDict.Add("Additional Financial Aid Information Button", FinancialAidLinksPage5);
+            FinancialAidLinksDict.Add("E-mail Pacific Button", FinancialAidLinksPage6);
         }
     }
 
@@ -85,6 +96,32 @@ public class Prototype2AcademicPageTabs : MonoBehaviour
             else if (converted != temp.transform.name)
             {
                 AcademicServicesParent.transform.GetChild(i).gameObject.SetActive(false);
+            }
+        }
+    }
+
+    public void loopChildrenFinancialAidLinks()
+    {
+        // Loops through all children within the parent the button was pressed.
+        // Hide every page that's not corresponding to the button (specified in the dictionary declatations).
+        for (int i = 0; i < FinancialAidLinksParent.transform.childCount; i++)
+        {
+            //Debug.Log(parent.transform.GetChild(i).name);
+            string converted = FinancialAidLinksParent.transform.GetChild(i).name;
+            string name = EventSystem.current.currentSelectedGameObject.name;
+            //Debug.Log(dict.ContainsKey(name));
+            FinancialAidLinksDict.TryGetValue(name, out GameObject temp);
+
+            //Debug.Log(converted);
+            //Debug.Log(temp.transform.name);
+
+            if (converted == temp.transform.name)
+            {
+                temp.SetActive(true);
+            }
+            else if (converted != temp.transform.name)
+            {
+                FinancialAidLinksParent.transform.GetChild(i).gameObject.SetActive(false);
             }
         }
     }
