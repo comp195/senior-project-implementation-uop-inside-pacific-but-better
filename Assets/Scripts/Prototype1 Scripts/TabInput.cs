@@ -7,9 +7,9 @@ using UnityEngine.UI;
 public class TabInput : MonoBehaviour
 {
     public string tabName;
-    public TMP_InputField input;
-    public TextMeshProUGUI output;
-    public Button enter;
+    private TMP_InputField input;
+    private TextMeshProUGUI output;
+    private Button enter;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,5 +24,10 @@ public class TabInput : MonoBehaviour
     {
         tabName = input.text;
         output.text = tabName;
+    }
+
+    public string GetName()
+    {
+        return tabName;
     }
 }
