@@ -1,26 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TabToggle : MonoBehaviour
 {
-    [SerializeField] private GameObject tab;
-    
     // Start is called before the first frame update
     void Start()
     {
-        tab.SetActive(true);
+        Button btn = transform.Find("Tab Delete").GetComponent<Button>();
+        btn.onClick.AddListener(TaskOnClick);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void TaskOnClick()
     {
-        
-    }
-
-    public void DeleteTab()
-    {
-        Destroy(tab);
+        Debug.Log("tab should be deleted");
+        Destroy(this.gameObject);
     }
 
 }
