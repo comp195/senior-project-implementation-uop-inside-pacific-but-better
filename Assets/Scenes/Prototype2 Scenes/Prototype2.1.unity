@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 10926796}
   - component: {fileID: 10926795}
   m_Layer: 5
-  m_Name: Continue
+  m_Name: 'Back '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Continue
+  m_text: 'Back '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -898,7 +898,7 @@ GameObject:
   - component: {fileID: 298234380}
   - component: {fileID: 298234379}
   m_Layer: 5
-  m_Name: Continue Button
+  m_Name: Back Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1835,10 +1835,10 @@ RectTransform:
   m_Father: {fileID: 683537933}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -214.36484, y: 341.87}
-  m_SizeDelta: {x: 366.7198, y: 30}
+  m_AnchorMin: {x: 0.21743879, y: 0.91200006}
+  m_AnchorMax: {x: 0.477849, y: 0.95100003}
+  m_AnchoredPosition: {x: -0.8648071, y: -0.6300049}
+  m_SizeDelta: {x: 1.7197876, y: -1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &466384787
 MonoBehaviour:
@@ -2127,8 +2127,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.99866295, y: -0.04010582}
-  m_SizeDelta: {x: 1404, y: 710.06}
+  m_AnchoredPosition: {x: 0.99866295, y: -0.0401}
+  m_SizeDelta: {x: 1404, y: 787.048}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &515187451
 MonoBehaviour:
@@ -2903,7 +2903,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 788877990}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.46289638
+  m_Size: 0.72621006
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3814,12 +3814,12 @@ GameObject:
   m_Component:
   - component: {fileID: 791832435}
   m_Layer: 5
-  m_Name: Rundown
+  m_Name: Disclaimer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &791832435
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4008,7 +4008,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.018000001, y: 0.832}
   m_AnchorMax: {x: 0.209, y: 0.90300006}
-  m_AnchoredPosition: {x: -12.095947, y: 0.62072754}
+  m_AnchoredPosition: {x: -12.096069, y: 0.62072754}
   m_SizeDelta: {x: -3.8000002, y: 1.2415009}
   m_Pivot: {x: 0.49999997, y: 0.5000002}
 --- !u!114 &857114118
@@ -5448,7 +5448,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1109067374}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 791832434}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1109067374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5703,7 +5715,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1143742103}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 791832434}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1143742103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6227,7 +6251,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1199525743}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 791832434}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1199525743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7274,7 +7310,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1403438872}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 791832434}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1403438872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9548,12 +9596,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Only the home screen and academic page is completed. This should be sufficient
-    enough to understand how the rest of the webpages would be.
+  m_text: '
 
 
-    Click "Sign
-    Out" to return to the selection page.'
+    This page has not been implemented in this prototype.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
