@@ -29,6 +29,6 @@ For Prototype #1
 
 For Prototype #2
 ----------------
--
--
--
+- Can the user click through the different tab categories?
+- Can the user open and close the different sub-pages the tabs present when clicked?
+- Can the user navigate through the different sub-pages the tabs present when clicked? 
