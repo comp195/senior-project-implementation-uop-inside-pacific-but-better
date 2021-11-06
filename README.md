@@ -20,6 +20,14 @@ Project Components
 
 Research Questions
 ------------------
+# For Prototype #1
+- Can the user create a tab in the dashboard?
+- Can the user delete a tab in the dahsboard?
+- Can the user drag the tabs they create in the dashboard?
+- Can the user name the tabs that they create?
+- Can the user filter which tabs they have created through the search bar?
+
+# For Prototype #2
 -
 -
 -
