@@ -20,15 +20,6 @@ senior-project-implementation-uop-inside-pacific-but-better created by GitHub Cl
 
 # Research Questions
 ------------------
-For Prototype #1
-----------------
-- Can the user create & delete a tab in the dahsboard?
-- Can the user drag the tabs they create in the dashboard?
-- Can the user name the tabs that they create?
-- Can the user filter which tabs they have created through the search bar?
-
-For Prototype #2
-----------------
-- Can the user click through the different tab categories?
-- Can the user open and close the different sub-pages the tabs present when clicked?
-- Can the user navigate through the different sub-pages the tabs present when clicked? 
+- How can we better gauge the needs of the students with this UI?
+- What are the core features that students find counterintuitive and disagreeable with Inside Pacific?
+- What are some potential features that the students themselves may not have known they wanted for Inside Pacific? 
